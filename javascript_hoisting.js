@@ -34,3 +34,35 @@ function eat(){
 var food = 'chicken';
 eat();
 console.log(food);
+
+//problem 5
+var mean = function() {
+    food = "chicken";
+    console.log(food);
+    var food = "fish";
+    console.log(food);
+}
+console.log(food);
+mean();
+
+// var mean;
+// mean();
+// console.log(food);
+// mean = function () {
+//   food = "chicken";
+//   console.log(food);
+//   var food = "fish";
+//   console.log(food);
+// };
+// console.log(food);
+
+//problem 6
+var genre = "disco";
+function rewind() {
+    genre = "rock";
+    console.log(genre);
+    var genre = "r&b";
+    console.log(genre);
+}
+console.log(genre);
+rewind();
